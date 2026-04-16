@@ -916,7 +916,7 @@ fn check_features(
         ("ffmpeg_3_1", 57, 48),
         ("ffmpeg_3_2", 57, 64),
         ("ffmpeg_3_3", 57, 89),
-        ("ffmpeg_3_1", 57, 107),
+        ("ffmpeg_3_4", 57, 107),
         ("ffmpeg_4_0", 58, 18),
         ("ffmpeg_4_1", 58, 35),
         ("ffmpeg_4_2", 58, 54),
@@ -929,6 +929,7 @@ fn check_features(
         ("ffmpeg_7_0", 61, 3),
         ("ffmpeg_7_1", 61, 19),
         ("ffmpeg_8_0", 62, 8),
+        ("ffmpeg_8_1", 62, 28),
     ];
     for &(ffmpeg_version_flag, lavc_version_major, lavc_version_minor) in
         ffmpeg_lavc_versions.iter()
